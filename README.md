@@ -1,2 +1,2 @@
-# FP-password-hashing
-Password generation with the bcrypt algorithm for Freeze Penguin
+# Freeze publics
+Custom packets codes, password generation with the bcrypt algorithm for Freeze Penguin, and more :)
