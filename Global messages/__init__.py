@@ -15,14 +15,7 @@ class GlobalMsgs(IPlugin):
 
     def __init__(self, server):
         super().__init__(server)
-
-        self.items_by_name = None
-
-    
-        await self.server.permissions.register('gm')
-        self.items_by_name = {item.name: item for item in self.server.items.values()}
-
-   
+  
 
     @commands.command('gm')
     @permissions.has_or_moderator('gm')
