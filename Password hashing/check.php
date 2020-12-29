@@ -5,7 +5,7 @@ $password = $_POST["clave"];
 
 
   
-
+//Anti-SQL Injections file not uploaded.
 
  $nombreminusculas = strtolower($nombre);
  $searchHashInDBMatch = pg_query(houdiniConnection(), "SELECT * FROM penguin WHERE username = '$nombreminusculas';");
